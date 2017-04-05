@@ -1,0 +1,44 @@
+<html>
+<head>
+</head>
+<body>
+<script src="app.js"></script>
+    
+    <h1>Register</h1>
+    <form>
+        First Name:  <input type="text" placeholder="firstname" required> 
+        Last Name: <input type="text" placeholder="lastname" required> <br>
+        Male: <input type="radio" name="gender" value="male"> 
+        Female: <input type="radio" name="gender"  value="female">
+        Other: <input type="radio" name="gender" value="other"> <br>
+        Email:<input type="email" placeholder="email">
+        Password:<input type="password" placeholder="password"  pattern=".{6,10}"><br>
+        Bithday: 
+        Day: <select name="day">
+                  <option value="volvo">1</option>
+                  <option value="saab">2</option>
+                  <option value="opel">3</option>
+                  <option value="audi">4</option>
+                </select>
+        Month:<select name="month">
+                  <option value="volvo">1</option>
+                  <option value="saab">2</option>
+                  <option value="opel">3</option>
+                  <option value="audi">4</option>
+                </select>
+        
+        year: <select name="year">
+                  <option value="volvo">1</option>
+                  <option value="saab">2</option>
+                  <option value="opel">3</option>
+                  <option value="audi">4</option>
+                </select><br>
+        
+        Agree with terms: 
+        <input type="checkbox" name="vehicle" value="Car">
+        <br>
+        
+        <input type="submit"> 
+    </form>
+</body>
+</html>
